@@ -1,0 +1,14 @@
+<!-- Navbar -->
+<nav class="navbar">
+  <ul>
+    <li><a routerLink="/about">Chi Sono</a></li>
+    <li><a routerLink="/objective">Obiettivo</a></li>
+    <li><a routerLink="/skills">Competenze</a></li>
+    <li><a routerLink="/contact">Contatti</a></li>
+  </ul>
+</nav>
+
+<!-- Sezioni caricate dinamicamente tramite il router -->
+<div class="cv-container">
+  <router-outlet></router-outlet> <!-- Qui verranno visualizzate le sezioni -->
+</div>

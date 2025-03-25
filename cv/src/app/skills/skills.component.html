@@ -1,0 +1,28 @@
+<section id="skills">
+    <h2>Competenze</h2>
+    <div class="competency">
+      <h3>Frontend</h3>
+      <ul>
+        <li *ngFor="let skill of competencies.frontend">{{ skill }}</li>
+      </ul>
+    </div>
+    <div class="competency">
+      <h3>Backend</h3>
+      <ul>
+        <li *ngFor="let skill of competencies.backend">{{ skill }}</li>
+      </ul>
+    </div>
+    <div class="competency">
+      <h3>Tools</h3>
+      <ul>
+        <li *ngFor="let tool of competencies.tools">{{ tool }}</li>
+      </ul>
+    </div>
+    <div class="competency">
+      <h3>Lingue</h3>
+      <ul>
+        <li *ngFor="let language of competencies.languages">{{ language }}</li>
+      </ul>
+    </div>
+  </section>
+  
